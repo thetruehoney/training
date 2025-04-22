@@ -1,0 +1,25 @@
+.property-list {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  width: 100%;
+}
+
+.property-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.property-name {
+  font-weight: bold;
+  color: #333;
+}
+
+.property-value {
+  color: #666;
+}

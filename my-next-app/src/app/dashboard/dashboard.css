@@ -1,0 +1,56 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: row; /* Change to row to position side menu and main content side by side */
+    gap: 20px;
+    padding: 20px;
+}
+
+.side-menu {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.side-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.side-menu li {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.main-content {
+    flex: 1; /* Allow main content to take up remaining space */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.property-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.chart-container {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #e97878;
+    border-radius: 8px;
+}
+
+.flex-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+}
